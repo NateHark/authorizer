@@ -1,7 +1,7 @@
 import WarrantAuthorizer from '../../src/warrant/warrantAuthorizer';
 import uniqueId from '../../src/util/uniqueId';
 
-const API_KEY = '***REMOVED***';
+const API_KEY = '/* replace me */';
 
 describe('warrantAuthorizer tests', () => {
   const client = new WarrantAuthorizer(API_KEY);
