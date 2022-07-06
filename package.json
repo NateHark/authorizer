@@ -1,0 +1,27 @@
+{
+  "name": "authorizer",
+  "version": "0.1.0",
+  "description": "Vareto authorization library",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "@warrantdev/warrant-js": "^0.0.5",
+    "base-x": "^4.0.0",
+    "got": "^12.1.0",
+    "uuid": "^8.3.2"
+  }
+}
